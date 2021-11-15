@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "horny_skeleton",
+  "version": "${version}",
+  "name": "Horny_skeleton",
+  "description": "Skeletons with horns",
+  "authors": [
+    "Avery"
+  ],
+  "contact": {
+    "website": "https://caverym.xyz/",
+    "repo": "https://github.com/caverym/horny-skeleton"
+  },
+  "license": "MIT",
+  "icon": "assets/horny_skeleton/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.caverym.horny_skeleton.horny_skeleton.client.Horny_skeletonClient"
+    ],
+    "main": [
+      "xyz.caverym.horny_skeleton.horny_skeleton.Horny_skeleton"
+    ]
+  },
+  "mixins": [
+    "horny_skeleton.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
