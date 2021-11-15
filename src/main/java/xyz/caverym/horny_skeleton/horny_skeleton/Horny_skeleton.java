@@ -23,7 +23,8 @@ public class Horny_skeleton implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        FabricDefaultAttributeRegistry.register(HORNY_SKELETON, HornySkeleton.createMobAttributes());
         Registry.register(Registry.SOUND_EVENT, Horny_skeleton.TRUMPET_SOUND, Horny_skeleton.TRUMPET_SOUND_EVENT);
+        Registry.register(Registry.ITEM, "trumpet", Horny_skeleton.TRUMPET_ITEM);
+        FabricDefaultAttributeRegistry.register(HORNY_SKELETON, HornySkeleton.createMobAttributes());
     }
 }
