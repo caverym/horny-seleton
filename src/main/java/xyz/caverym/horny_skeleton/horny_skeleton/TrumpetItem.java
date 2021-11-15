@@ -1,4 +1,4 @@
-package xyz.caverym.horny_skeleton.horny_skeleton.client;
+package xyz.caverym.horny_skeleton.horny_skeleton;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
